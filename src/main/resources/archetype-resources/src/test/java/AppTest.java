@@ -1,4 +1,4 @@
-package $cn.wuwenyao.archetype.spring_mvc_base;
+package ${package};
 
 import junit.framework.Test;
 import junit.framework.TestCase;
