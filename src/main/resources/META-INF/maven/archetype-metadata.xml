@@ -11,15 +11,21 @@
 
 	<fileSets>
 		<fileSet filtered="true" packaged="true">
-			<directory>src/main/java</directory>
+			<directory>src</directory>
 			<includes>
 				<include>**/*.java</include>
 			</includes>
 		</fileSet>
-		<fileSet filtered="true" packaged="true">
-			<directory>src/test/java</directory>
+		<fileSet filtered="true" packaged="false">
+			<directory>resource</directory>
 			<includes>
-				<include>**/*.java</include>
+				<include>**/*.*</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="true" packaged="false">
+			<directory>WebContent</directory>
+			<includes>
+				<include>**/*.*</include>
 			</includes>
 		</fileSet>
 	</fileSets>
